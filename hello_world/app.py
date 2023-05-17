@@ -32,7 +32,7 @@ def lambda_handler(event, context):
     #     print(e)
 
     #     raise e
-
+    print("Change deployed with SAM Accelerate")
     return {
         "statusCode": 200,
         "body": json.dumps({
